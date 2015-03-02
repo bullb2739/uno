@@ -31,7 +31,7 @@ int loop() {
   Shuffle(&deck);
 
   // Deal.
-  std::vector<Card> hands[players.size()];
+  std::vector<std::vector<Card>> hands(players.size());
   for (int i = 0; i < 7; i++) {
     for (auto &hand : hands) {
       hand.push_back(deck.back());
