@@ -14,7 +14,7 @@ static const std::string INVALID("Invalid");
 
 static const std::string RED{"Red"};
 static const std::string BLUE{"Blue"};
-static const std::string YELLOW{"Yellow"};
+static const std::string YELLOW("Yellow");
 static const std::string GREEN{"Green"};
 static const std::string BLACK{"Black"};
 
