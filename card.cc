@@ -10,7 +10,7 @@ namespace uno {
 
 namespace {
 
-static const std::string INVALID{"Invalid"};
+static const std::string INVALID("Invalid");
 
 static const std::string RED{"Red"};
 static const std::string BLUE{"Blue"};
